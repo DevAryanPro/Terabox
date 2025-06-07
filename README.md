@@ -36,7 +36,7 @@ This project is an open-source tool to help you access and stream files from Ter
     python app.py
     ```
 
-    The API server will run on `http://localhost:5000`.
+    The API server will run on `[http://localhost:5000](http://192.168.58.5:5000)`.
 
 ### Running the Watch Player (Web UI) 🌐
 
