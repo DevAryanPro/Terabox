@@ -1,74 +1,96 @@
-# Terabox Video Player
+# Terabox Open Source 🚀
 
-This project allows you to play videos from Terabox links directly in your browser.
+This project is an open-source tool to help you access and stream files from Terabox links.
 
-## Prerequisites
+## Features ✨
 
-- Python 3.x
-- Flask
-- Werkzeug
-- Flask-Cors
-- requests
-- cloudscraper
+*   **Flask API Server**: Provides an API to fetch file information and generate download links.
+*   **Web UI**: A user-friendly interface to search and play videos directly from Terabox links.
 
-## Installation
+## Getting Started 🏁
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/DevAryanPro/Terabox-open-source.git
-   cd Terabox-open-source
-   ```
+### Prerequisites ⚙️
 
-2. Install the required Python packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
+*   Python 3.6+
+*   pip
 
-## Starting the Flask API Server
+### Installation 🛠️
 
-1. Navigate to the project directory:
-   ```bash
-   cd Terabox-open-source
-   ```
+1.  Clone the repository:
 
-2. Run the Flask server:
-   ```bash
-   python app.py
-   ```
+    ```bash
+    git clone https://github.com/DevAryanPro/Terabox-open-source.git
+    cd Terabox-open-source
+    ```
+2.  Install the dependencies:
 
-The Flask API server will start running on `http://localhost:5000`.
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-## Starting the Watch Player on Localhost
+### Running the Flask API Server 🐍
 
-1. Open the `public/index.html` file in your browser.
+1.  Start the Flask API server:
 
-2. Enter the Terabox URL in the input field and click the "Search" button.
+    ```bash
+    python app.py
+    ```
 
-The video player will load and play the video from the provided Terabox link.
+    The API server will run on `http://localhost:5000`.
 
-## License
+### Running the Watch Player (Web UI) 🌐
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+1.  Open terminal and navigate to the project directory.
+2.  Start the web server:
 
-## Reporting Issues
+    ```bash
+    python -m http.server 8000
+    ```
 
-If you encounter any issues or errors, please report them by creating an issue on the [GitHub repository](https://github.com/DevAryanPro/Terabox-open-source/issues).
+3.  Access the web UI in your browser at `http://localhost:8000/public/`.
 
-## Contact Information
+## Configuration ⚙️
 
-For any further assistance, you can contact the developer at [hello.kaiiddo@gmail.com](mailto:hello.kaiiddo@gmail.com).
+The API server uses a `config.json` file for configuration. You can modify the `mode` and `cookie` values in this file.
 
-## Social Media Links
+## Usage 💡
 
-- YouTube: [DevAryanPro](https://www.youtube.com/DevAryanPro)
-- Twitter: [@DevAryanPro](https://twitter.com/DevAryanPro)
-- LinkedIn: [DevAryanPro](https://www.linkedin.com/in/DevAryanPro)
-- Telegram: [@DevAryanPro](https://t.me/DevAryanPro)
+1.  Enter a Terabox URL in the search box.
+2.  Click the "Search" button.
+3.  If video files are found, they will be displayed in a list.
+4.  Click the "Play" button to stream the video.
+5.  Click the "Download" button to download the file.
 
-## Acknowledgments
+## License 📝
 
-Special thanks to [Dapunta](https://github.com/Dapunta) for the reference and inspiration.
+This project is open source and available for everyone to use.
 
-## Developer
+## Reporting Illegal Activity 🚨
 
-This project is developed and maintained by [@Kaiiddo](https://github.com/Kaiiddo).
+If you find any illegal activity or content within this repository, please report it to [hello.kaiiddo@gmail.com](mailto:hello.kaiiddo@gmail.com).
+
+## Issues and Errors 🐛
+
+If you encounter any issues or errors, please create a request on [https://github.com/DevAryanPro/Terabox-open-source/issues](https://github.com/DevAryanPro/Terabox-open-source/issues).
+
+## Thanks 🙏
+
+Special thanks to Dapunta for the reference.
+
+## Owner & Developer 👨‍💻
+
+*   **@Kaiiddo**
+
+### Social Media 📱
+
+*   **YouTube**: [YouTube Channel](https://www.youtube.com/) 📺
+*   **Twitter**: [Twitter Profile](https://twitter.com/) 🐦
+*   **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/) 💼
+*   **Telegram**: [Telegram Channel](https://t.me/) ✉️
+
+## Languages Used 💻
+
+*   Python 🐍
+*   JavaScript 📜
+*   HTML 🌐
+*   CSS 🎨
